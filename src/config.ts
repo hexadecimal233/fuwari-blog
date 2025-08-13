@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/demo-banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "https://readme-typing-svg.demolab.com/?font=Fira+Code&size=2&pause=1000&color=53A3F2&center=true&vCenter=true&random=true&width=60&height=70&lines=welcome+to+hexzii%27s+box", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
@@ -30,6 +30,7 @@ export const siteConfig: SiteConfig = {
 		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
 	},
 	favicon: [
+		{ src: "/favicon/favicon.png" },
 		// Leave this array empty to use the default favicon
 		// {
 		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
@@ -45,11 +46,6 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		LinkPreset.Ech0,
 		LinkPreset.About,
-		{
-			name: "GitHub",
-			url: "https://github.com/saicaca/fuwari", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
-		},
 	],
 };
 
