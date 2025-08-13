@@ -12,7 +12,7 @@
 
 👉 Feel free to DM me! 👈
 
-- Mail: [contact@onlyra1n.top](mailto:contact@onlyra1n.top)
+- Mail: [hexzii@nichijou.moe](mailto:hexzii@nichijou.moe)
 - QQ: 2593828650
 - Discord: hexadecimal233
 - Telegram: @hexadecimal233 (less frequent)
