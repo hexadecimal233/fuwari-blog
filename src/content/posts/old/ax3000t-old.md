@@ -2,7 +2,7 @@
 title: 小米AX3000T刷OpenWRT中遇到的问题和解决方案
 published: 2024-04-01
 description: ""
-image: https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/7479ad5b1765f906bc5237316d60d362.png
+image: https://s.nichijou.moe/old-images/images/24/9/7479ad5b1765f906bc5237316d60d362.png
 tags: []
 category: 旧作
 draft: false
@@ -44,7 +44,7 @@ CPU：联发科 FiLogic 820 系列的 MT7981，12nm 双核 A53 架构，12nm 工
 > - 刷 uboot 的时候可能不止五分钟，千万不要断电！刷完灯会灭，然后重启！
 > - 管理后台的默认用户名是`root`，密码是`password`！
 
-![https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/8dc1f22979ca7e896ad404d82bb03e0e.png](https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/8dc1f22979ca7e896ad404d82bb03e0e.png)
+![https://s.nichijou.moe/old-images/images/24/9/8dc1f22979ca7e896ad404d82bb03e0e.png](https://s.nichijou.moe/old-images/images/24/9/8dc1f22979ca7e896ad404d82bb03e0e.png)
 
 # 2. 配置 OpenWRT
 
@@ -54,7 +54,7 @@ CPU：联发科 FiLogic 820 系列的 MT7981，12nm 双核 A53 架构，12nm 工
 
 在**网络->无线**下面把两个网络设置为开启，配置个密码就可以正常使用了。（支持双频合一）
 
-![https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/e6f91433a25aad037cc2214a65d39d5f.png](https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/e6f91433a25aad037cc2214a65d39d5f.png)
+![https://s.nichijou.moe/old-images/images/24/9/e6f91433a25aad037cc2214a65d39d5f.png](https://s.nichijou.moe/old-images/images/24/9/e6f91433a25aad037cc2214a65d39d5f.png)
 
 ## 杂七杂八的设置
 
@@ -73,20 +73,20 @@ CPU：联发科 FiLogic 820 系列的 MT7981，12nm 双核 A53 架构，12nm 工
 ### LAN 口
 
 OK，为了不让局域网使用内部使用自己的 IPv6 地址，首先我们需要清除**全局网络选项**里的 ULA 前缀，不分配私网 ipv6 地址。
-![https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/16c24d5f622d90e2f7c8bb706e80dd38.png](https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/16c24d5f622d90e2f7c8bb706e80dd38.png)
+![https://s.nichijou.moe/old-images/images/24/9/16c24d5f622d90e2f7c8bb706e80dd38.png](https://s.nichijou.moe/old-images/images/24/9/16c24d5f622d90e2f7c8bb706e80dd38.png)
 
 接下来因为我电信路由的网关地址已经是`192.168.1.1`了，为了不产生冲突，这里需要在**LAN**里设置一个新的 IP 地址。（只需要设置静态地址就行了，网关和广播正常会自动识别）
 
-![https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/901f35540fc8ba65d450d1a7f914ced9.png](https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/901f35540fc8ba65d450d1a7f914ced9.png)
+![https://s.nichijou.moe/old-images/images/24/9/901f35540fc8ba65d450d1a7f914ced9.png](https://s.nichijou.moe/old-images/images/24/9/901f35540fc8ba65d450d1a7f914ced9.png)
 
 DCHP 这里在高级模式里打开强制（不记得原来是开着的还关着的了就提一下），在 IPv6 设置里全部选择中继模式，如图。
 
-![https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/22bec7c9ea8f4594082435c9ce5325da.png](https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/22bec7c9ea8f4594082435c9ce5325da.png)
+![https://s.nichijou.moe/old-images/images/24/9/22bec7c9ea8f4594082435c9ce5325da.png](https://s.nichijou.moe/old-images/images/24/9/22bec7c9ea8f4594082435c9ce5325da.png)
 
-![https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/0f703a877b8e5a09bf49a1e5701d8e34.png](https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/0f703a877b8e5a09bf49a1e5701d8e34.png)
+![https://s.nichijou.moe/old-images/images/24/9/0f703a877b8e5a09bf49a1e5701d8e34.png](https://s.nichijou.moe/old-images/images/24/9/0f703a877b8e5a09bf49a1e5701d8e34.png)
 
 高级设置里打开使用内置的 IPv6 管理，为什么写上去，原因同上。
-![https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/aa5d3e16e0fc352d15afb60b0d9b0084.png](https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/aa5d3e16e0fc352d15afb60b0d9b0084.png)
+![https://s.nichijou.moe/old-images/images/24/9/aa5d3e16e0fc352d15afb60b0d9b0084.png](https://s.nichijou.moe/old-images/images/24/9/aa5d3e16e0fc352d15afb60b0d9b0084.png)
 
 ### WAN 口
 
@@ -95,7 +95,7 @@ DCHP 这里在高级模式里打开强制（不记得原来是开着的还关着
 因为我这个版本的固件缺了点设置，那些别的教程里的的设置在我的 GUI 上没有（）所以我们就要用到配置文件来改 DHCPv6 的设置！
 
 先确保一下 WAN6 的配置是和图里的一样的：
-![https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/573f4944d875851f7f529bc7dea5ff56.png](https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/573f4944d875851f7f529bc7dea5ff56.png)
+![https://s.nichijou.moe/old-images/images/24/9/573f4944d875851f7f529bc7dea5ff56.png](https://s.nichijou.moe/old-images/images/24/9/573f4944d875851f7f529bc7dea5ff56.png)
 
 现在也是最后一步！最后找到`/etc/config/dhcp`，连上 SSH 用 vi 编辑文件，找到 DHCP 关于 wan 和 wan6 的两项，把原来的删掉，用下面两个替换：
 
@@ -119,7 +119,7 @@ config dhcp 'wan6'
 
 想要测试 ipv6 连通性话可以用[www.test-ipv6.com](https://www.test-ipv6.com/index.html.zh_CN)（梯子需要关！！有些机场自带 IPv6 的线路！）图里应该是 V4 的测试地址被墙了，然后我成了大半个互联网都上不了的人（
 
-![https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/a90aa4eec865d985c4d9122c0d1eb4b5.png](https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/9/a90aa4eec865d985c4d9122c0d1eb4b5.png)
+![https://s.nichijou.moe/old-images/images/24/9/a90aa4eec865d985c4d9122c0d1eb4b5.png](https://s.nichijou.moe/old-images/images/24/9/a90aa4eec865d985c4d9122c0d1eb4b5.png)
 
 参考：
 

@@ -2,7 +2,7 @@
 title: Windows配置GPG签名，Github展示Verified绿标
 published: 2024-04-01
 description: ""
-image: https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/11/e02b15961013a17078375e35a42b6dad.png
+image: https://s.nichijou.moe/old-images/images/24/11/e02b15961013a17078375e35a42b6dad.png
 tags: []
 category: 旧作
 draft: false
@@ -45,7 +45,7 @@ Github 提交签名有三种方式，Github 自签（网页端操作自带），
 安装完，这里默认会给你安装上 Kleopatra（一个 GPG 的 GUI）并且默认打开
 
 第一次打开没任何证书的时候，会提示你是否创建新的证书，这里就选择新建 OpenPGP 密钥对，填入名称和邮箱（算法细节可以自行更改），会来到到下面这个页面：
-![https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/11/43d5c6ac7d98735ef3aff81636f5a23d.png](https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/11/43d5c6ac7d98735ef3aff81636f5a23d.png)
+![https://s.nichijou.moe/old-images/images/24/11/43d5c6ac7d98735ef3aff81636f5a23d.png](https://s.nichijou.moe/old-images/images/24/11/43d5c6ac7d98735ef3aff81636f5a23d.png)
 
 我们需要获取 GPG 的绝对路径：
 
@@ -78,7 +78,7 @@ $ git config --global commit.gpgsign true
 $ gpg --list-secret-keys --keyid-format LONG
 ```
 
-![https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/11/ace918349cc3332d650c7554719d1eac.png](https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/11/ace918349cc3332d650c7554719d1eac.png)
+![https://s.nichijou.moe/old-images/images/24/11/ace918349cc3332d650c7554719d1eac.png](https://s.nichijou.moe/old-images/images/24/11/ace918349cc3332d650c7554719d1eac.png)
 
 这个 sec 后面是`算法/ID`，0530 就是我们想要的 ID 了
 
@@ -94,7 +94,7 @@ $ git config --global user.signingkey "[GPG_KEY]"
 
 喜提 Unverified~
 
-![https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/11/c49836354b7d5f4e604120853cf9c354.png](https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/11/c49836354b7d5f4e604120853cf9c354.png)
+![https://s.nichijou.moe/old-images/images/24/11/c49836354b7d5f4e604120853cf9c354.png](https://s.nichijou.moe/old-images/images/24/11/c49836354b7d5f4e604120853cf9c354.png)
 
 要想绿标，你还得在 Github 上配置自己的 GPG 公钥，可以通过[https://github.com/hexadecimal233.gpg](https://github.com/hexadecimal233.gpg)查看。（想看别人用户名自己改啦）
 
@@ -104,7 +104,7 @@ $ git config --global user.signingkey "[GPG_KEY]"
 $ gpg --export --armor soda114514@proton.me
 ```
 
-![https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/11/5af1d3a425527e6c48556d7919f4f5c8.png](https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/11/5af1d3a425527e6c48556d7919f4f5c8.png)
+![https://s.nichijou.moe/old-images/images/24/11/5af1d3a425527e6c48556d7919f4f5c8.png](https://s.nichijou.moe/old-images/images/24/11/5af1d3a425527e6c48556d7919f4f5c8.png)
 
 然后第二种就是 Kleopatra，选择导出证书就是公钥，复制到 Github 里完全可用，十分甚至九分的方便啊!（
 
@@ -124,7 +124,7 @@ $ gpg --export --armor soda114514@proton.me
 >
 > 不知道如何把子文件夹放到最开头显示，还堆着之前没分类时候塞的巨大收藏夹（YES，scj3，名字够随意）
 
-![https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/11/9250fb68119b09815f3a334b2dd05071.png](https://mirror.ghproxy.com/https://github.com/onlyra1n/image-bed/raw/master/images/24/11/9250fb68119b09815f3a334b2dd05071.png)
+![https://s.nichijou.moe/old-images/images/24/11/9250fb68119b09815f3a334b2dd05071.png](https://s.nichijou.moe/old-images/images/24/11/9250fb68119b09815f3a334b2dd05071.png)
 
 > 参考：[https://www.git-tower.com/blog/setting-up-gpg-windows/](https://www.git-tower.com/blog/setting-up-gpg-windows)
 

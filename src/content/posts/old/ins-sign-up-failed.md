@@ -2,7 +2,7 @@
 title: 不干净的IP注册Ins遇到的问题
 published: 2024-04-01
 description: ""
-image: https://mirror.ghproxy.com/https://raw.githubusercontent.com/onlyra1n/image-bed/master/202407121536300.png
+image: https://s.nichijou.moe/old-images/202407121536300.png
 tags: []
 category: 旧作
 draft: false

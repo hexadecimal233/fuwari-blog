@@ -2,7 +2,6 @@
 title: 更换了博客主题
 published: 2024-04-01
 description: ""
-image: https://mirror.ghproxy.com/https://raw.githubusercontent.com/hexadecimal233/hexo-awesome-themes/master/assets/1.webp
 tags: []
 category: 旧作
 draft: false

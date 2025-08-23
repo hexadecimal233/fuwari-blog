@@ -149,7 +149,7 @@ static final class a extends Lambda implements Function0<String> {
 
 那么理论存在，实验开始——
 
-![image.png](https://raw.githubusercontent.com/onlyra1n/image-bed/master/202501311608730.png)
+![image.png](https://s.nichijou.moe/old-images/202501311608730.png)
 
 这里看到原本的 uct2 已经被成功解出来了~
 
@@ -213,7 +213,7 @@ function share(e, t) {
 
 可以看到流程与安卓端差不多，but 加密算法有点不一样！
 
-![image.png](https://raw.githubusercontent.com/onlyra1n/image-bed/master/202501311932536.png)
+![image.png](https://s.nichijou.moe/old-images/202501311932536.png)
 
 通过动态分析在 encrypt 处下断点发现加密函数这里的 d 和 h 就是 CryptoJS 的实例，整理后加密算法是这样：
 

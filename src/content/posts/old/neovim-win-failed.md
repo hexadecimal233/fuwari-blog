@@ -2,7 +2,7 @@
 title: 【水】Neovim装不上竟然是......
 published: 2024-04-01
 description: ""
-image: https://mirror.ghproxy.com/https://raw.githubusercontent.com/onlyra1n/image-bed/master/202407121530914.png
+image: https://s.nichijou.moe/old-images/202407121530914.png
 tags: []
 category: 旧作
 draft: false

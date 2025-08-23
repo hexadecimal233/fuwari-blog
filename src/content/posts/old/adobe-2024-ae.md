@@ -2,7 +2,7 @@
 title: Adobe2024全家桶(转载) + AE报错打不开解决方案
 published: 2024-04-01
 description: ""
-image: https://mirror.ghproxy.com/https://raw.githubusercontent.com/onlyra1n/image-bed/master/202407121548083.png
+image: https://s.nichijou.moe/old-images/202407121548083.png
 tags: []
 category: 旧作
 draft: false

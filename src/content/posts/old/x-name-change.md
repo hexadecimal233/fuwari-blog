@@ -2,7 +2,7 @@
 title: 记一下黑叉改名失败解决方案
 published: 2024-04-01
 description: ""
-image: https://mirror.ghproxy.com/https://raw.githubusercontent.com/onlyra1n/image-bed/master/202407121539053.webp
+image: https://s.nichijou.moe/old-images/202407121539053.webp
 tags: []
 category: 旧作
 draft: false

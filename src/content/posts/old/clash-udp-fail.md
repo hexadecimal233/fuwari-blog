@@ -2,7 +2,7 @@
 title: 【经验分享】在Clash内直连UDP（玩联机必会）
 published: 2024-04-01
 description: ""
-image: https://mirror.ghproxy.com/https://raw.githubusercontent.com/onlyra1n/image-bed/master/202407121558375.png
+image: https://s.nichijou.moe/old-images/202407121558375.png
 tags: []
 category: 旧作
 draft: false
