@@ -15,8 +15,4 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
 		name: i18n(I18nKey.archive),
 		url: "/archive/",
 	},
-		[LinkPreset.Ech0]: {
-		name: i18n(I18nKey.ech0),
-		url: "/ech0/",
-	},
 };
