@@ -30,4 +30,5 @@ yarn.lock
 .idea
 *.iml
 
-.obsidian
+.obsidian/
+.frontmatter/

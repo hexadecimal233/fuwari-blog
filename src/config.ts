@@ -62,16 +62,6 @@ export const profileConfig: ProfileConfig = {
 			// `pnpm add @iconify-json/<icon-set-name>`
 			url: "https://x.com/llkawi_",
 		},
-		{
-			name: "Steam",
-			icon: "simple-icons:steam",
-			url: "https://steamcommunity.com/profiles/76561198843801051",
-		},
-		{
-			name: "Bilibili",
-			icon: "simple-icons:bilibili",
-			url: "https://space.bilibili.com/174927495",
-		},
 	],
 };
 
