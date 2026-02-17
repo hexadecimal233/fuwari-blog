@@ -51,11 +51,21 @@ draft: false
 
 ![报告](https://s.nichijou.moe/thorium_XQlqxpbG4E.png)
 
-> PS: 在查资料的时候还发现了个小项目，~~看标题都知道是啥<https://github.com/classvsoftware/spy-extension/tree/master/src>~~
->
-> 偷偷 vibe 了个浏览器扩展审查工具，到时候发出来看看，可以先蹲一下 x [^3]
->
-> ![工具](https://s.nichijou.moe/thorium_rnTyDDSP6I.png)
+## PS
+
+在查资料的时候还发现了个小项目，~~看标题都知道是啥<https://github.com/classvsoftware/spy-extension/tree/master/src>~~
+
+偷偷 vibe 了个浏览器扩展审查工具，到时候发出来看看，可以先蹲一下 x [^3]
+
+![工具](https://s.nichijou.moe/thorium_rnTyDDSP6I.png)
+
+拓展阅读:
+
+<https://github.com/qcontinuum1/spying-extensions/stargazers>
+
+<https://github.com/HEXXDECIMAL/DISSECT>
+
+<https://www.oakleys.org.uk/blog/2018/02/finding_the_privacy_leak_crxmouse>
 
 （btw 我也正在考虑试试跑在软路由的 DNS + 代理过滤方案）
 
