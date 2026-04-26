@@ -1,7 +1,7 @@
 ---
-title: 一次有趣的尝试：列式 JSON 压缩
+title: 列式 JSON 压缩
 published: 2026-03-30
-description: 一次有趣的尝试，尝试使用列式 JSON 压缩技术，减少 JSON 字符串的大小。
+description: 尝试用列式存储压缩 JSON 数据。
 tags: [JSON, 压缩]
 category: 技术
 draft: false
