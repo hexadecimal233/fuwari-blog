@@ -4,7 +4,7 @@ published: 2077-02-33
 description: 从 WHOIS 和 DNS 查询出发，深入到证书透明度（CT）、公网 IPv6 和 Cloudflare 行为机制，揭示域名背后的数字隐私与曝光风险。
 tags: [域名, 安全, 证书透明度, IPv6, Cloudflare, 隐私]
 category: 技术
-draft: true
+draft: false
 ---
 
 > 本文由 AI 辅助撰写，请仔细检查内容真伪。
